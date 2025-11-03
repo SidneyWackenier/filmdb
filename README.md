@@ -1,5 +1,7 @@
 # 🎬 FilmDB – React Native Movie App
 
+THIS PROJECT WAS CREATED WITH MOBILE IN MIND - FOR THE BEST EXPERIENCE, RESIZE YOUR WINDOW OR USE INSPECT ELEMENT
+
 [Live Demo on Vercel](https://filmdb-five.vercel.app)
 
 ---
