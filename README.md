@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# 🎬 FilmDB – React Native Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[Live Demo on Vercel](filmdb-five.vercel.app)
 
-## Get started
+---
 
-1. Install dependencies
+## Project Overview
 
-   ```bash
-   npm install
-   ```
+FilmDB is a **React Native mobile and web application** that allows users to browse, review, and track movies. Inspired by platforms like Letterboxd and IMDb, it provides a modern interface to explore films, read reviews, and manage your personal favorites and watchlist.  
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## Key Features
 
-In the output, you'll find options to open the app in a
+- Browse movies with **poster grids** and genre filters.  
+- View detailed movie information including **reviews**.  
+- Post your own reviews and rate movies.  
+- **Toggle favorites and watchlist** per logged-in user.  
+- **Persisted user data** with AsyncStorage under usernames.  
+- Smooth **navigation between screens** using React Navigation.  
+- Fully functional on **mobile and web** (via Expo Web).  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Technical Highlights
 
-## Get a fresh project
+- **React Native + Expo SDK 52** for cross-platform development.  
+- **TypeScript** for type safety across the codebase.  
+- **React Navigation** for managing screen flows.  
+- **AsyncStorage** to persist favorites and watchlist locally.  
+- **Web version hosted on Vercel** using Expo Web (`dist/` static export).  
+- **Data fetched from a public movie API**, mocked and stored locally for user-specific features.  
 
-When you're ready, run:
+## Project Structure
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
