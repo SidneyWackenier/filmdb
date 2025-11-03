@@ -1,6 +1,6 @@
 # 🎬 FilmDB – React Native Movie App
 
-[Live Demo on Vercel](filmdb-five.vercel.app)
+[Live Demo on Vercel](https://filmdb-five.vercel.app)
 
 ---
 
