@@ -30,6 +30,3 @@ FilmDB is a **React Native mobile and web application** that allows users to bro
 - **AsyncStorage** to persist favorites and watchlist locally.  
 - **Web version hosted on Vercel** using Expo Web (`dist/` static export).  
 - **Data fetched from a public movie API**, mocked and stored locally for user-specific features.  
-
-## Project Structure
-
